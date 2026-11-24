@@ -1,3 +1,13 @@
+"""""
+Self-Assessment
+
+1. A boolean filter asks a yes-or-no question about every single row in your table and keeps only the rows where the answer is "yes."
+
+2.  Single brackets give you a 1D list of values (a Series), while double brackets keep the 2D table structure (a DataFrame), which matters when tools like machine learning models or table joins strictly require a 2D table.
+
+3. Unlike manual clicks in Excel, pandas saves your work as a reusable, step-by-step recipe so you can instantly rerun the exact same analysis on new data without human error.
+"""
+
 
 print("---Exercise 1---")
 
@@ -53,13 +63,3 @@ print("---Exercise 8---")
 
 df.to_csv('data/explored.csv', index=False)
 
-
-"""
-Self-Assessment
-
-1. A boolean filter asks a yes-or-no question about every single row in your table and keeps only the rows where the answer is "yes."
-
-2.  Single brackets give you a 1D list of values (a Series), while double brackets keep the 2D table structure (a DataFrame), which matters when tools like machine learning models or table joins strictly require a 2D table.
-
-3. Unlike manual clicks in Excel, pandas saves your work as a reusable, step-by-step recipe so you can instantly rerun the exact same analysis on new data without human error.
-"""
